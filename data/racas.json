@@ -1,0 +1,55 @@
+{
+    "Humano": {
+        "descricao": "A população mais comum do Reino. Versáteis e adaptáveis.",
+        "bonus": {
+            "Vantagem Extra": 1
+        },
+        "modificadores": {}
+    },
+    "Morgante": {
+        "descricao": "Meio-gigantes corpulentos, famosos pela comilança e força.",
+        "bonus": {
+            "Tamanho": 1,
+            "Resistência": 1
+        },
+        "modificadores": {
+            "Força": 1,
+            "Vigor": 1
+        },
+        "notas": "Custo dobrado para armaduras e roupas devido ao tamanho."
+    },
+    "Marionette": {
+        "descricao": "Criaturas feitas de madeira de Fabulenha, animadas por magia.",
+        "bonus": {
+            "Construto": true,
+            "Armadura Natural": 1
+        },
+        "modificadores": {
+            "Vigor": 1
+        },
+        "fraquezas": "Vulnerabilidade a Fogo. Não podem ser curados magicamente (precisam de Consertar).",
+        "notas": "Imune a veneno e doenças."
+    },
+    "Silvestre": {
+        "descricao": "Humanos rústicos e ferais que vivem em harmonia com a natureza.",
+        "bonus": {
+            "Sentidos Apurados": "Começa com d6 em Percepção"
+        },
+        "modificadores": {
+            "Agilidade": 1,
+            "Espírito": 1
+        },
+        "notas": "Recebe Vantagem 'Mateiro' gratuitamente."
+    },
+    "Malebranque": {
+        "descricao": "Diabos que renunciaram ao inferno para viver no Reino.",
+        "bonus": {
+            "Visão no Escuro": true,
+            "Resistência ao Fogo": 4
+        },
+        "modificadores": {
+            "Força": 1
+        },
+        "fraquezas": "Má Reputação (-2 carisma com clérigos e paladinos)."
+    }
+}

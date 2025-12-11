@@ -1,0 +1,12 @@
+{
+    "atributos": [
+        "Agilidade",
+        "Astúcia",
+        "Espírito",
+        "Força",
+        "Vigor"
+    ],
+    "custo_inicial": 5,
+    "dado_base": 4,
+    "dado_maximo": 12
+}

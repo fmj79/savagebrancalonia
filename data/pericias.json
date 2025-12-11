@@ -1,0 +1,30 @@
+{
+    "Pericias": [
+        {"nome": "Atletismo", "atributo": "Agilidade", "basica": true},
+        {"nome": "Conhecimento Geral", "atributo": "Astúcia", "basica": true},
+        {"nome": "Furtividade", "atributo": "Agilidade", "basica": true},
+        {"nome": "Percepção", "atributo": "Astúcia", "basica": true},
+        {"nome": "Persuadir", "atributo": "Espírito", "basica": true},
+        {"nome": "Atirar", "atributo": "Agilidade", "basica": false},
+        {"nome": "Cavalgar", "atributo": "Agilidade", "basica": false},
+        {"nome": "Ciência Estranha", "atributo": "Astúcia", "basica": false},
+        {"nome": "Conhecimento Acadêmico", "atributo": "Astúcia", "basica": false},
+        {"nome": "Conhecimento de Batalha", "atributo": "Astúcia", "basica": false},
+        {"nome": "Consertar", "atributo": "Astúcia", "basica": false},
+        {"nome": "Conjurar", "atributo": "Astúcia", "basica": false},
+        {"nome": "Curar", "atributo": "Astúcia", "basica": false},
+        {"nome": "Fé", "atributo": "Espírito", "basica": false},
+        {"nome": "Foco", "atributo": "Espírito", "basica": false},
+        {"nome": "Intimidar", "atributo": "Espírito", "basica": false},
+        {"nome": "Jogar", "atributo": "Astúcia", "basica": false},
+        {"nome": "Ladinagem", "atributo": "Agilidade", "basica": false},
+        {"nome": "Lutar", "atributo": "Agilidade", "basica": false},
+        {"nome": "Navegar", "atributo": "Astúcia", "basica": false},
+        {"nome": "Performance", "atributo": "Espírito", "basica": false},
+        {"nome": "Pesquisar", "atributo": "Astúcia", "basica": false},
+        {"nome": "Pilotar (Barco/Carroça)", "atributo": "Agilidade", "basica": false},
+        {"nome": "Provocar", "atributo": "Astúcia", "basica": false},
+        {"nome": "Sobrevivência", "atributo": "Astúcia", "basica": false}
+    ],
+    "pontos_iniciais": 12
+}

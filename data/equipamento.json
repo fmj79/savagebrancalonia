@@ -1,0 +1,49 @@
+{
+    "Armas Corpo a Corpo": [
+        {"nome": "Adaga/Faca", "dano": "For+d4", "peso": 0.5, "custo": 25, "notas": "Pode ser arremessada."},
+        {"nome": "Bordão/Cajado", "dano": "For+d4", "peso": 2, "custo": 10, "notas": "Aparar +1, Alcance 1, Duas Mãos."},
+        {"nome": "Clava/Porrete", "dano": "For+d4", "peso": 1, "custo": 15, "notas": "Simples e brutal."},
+        {"nome": "Enxada Militar (Zappa)", "dano": "For+d6", "peso": 2, "custo": 50, "notas": "Perfurante 1. Item de Brancalonia."},
+        {"nome": "Espada Curta", "dano": "For+d6", "peso": 1, "custo": 200, "notas": "-"},
+        {"nome": "Espada Longa", "dano": "For+d8", "peso": 1.5, "custo": 300, "notas": "-"},
+        {"nome": "Forcado Militar", "dano": "For+d8", "peso": 3, "custo": 75, "notas": "Alcance 1, Duas Mãos. Item de Brancalonia."},
+        {"nome": "Lança", "dano": "For+d6", "peso": 1.5, "custo": 100, "notas": "Alcance 1, Duas Mãos."},
+        {"nome": "Língua do Matador", "dano": "For+d4", "peso": 1.5, "custo": 100, "notas": "Alcance 1, Aparar +1, Ignora escudo. Item de Brancalonia."},
+        {"nome": "Machado de Batalha", "dano": "For+d8", "peso": 2, "custo": 300, "notas": "-"},
+        {"nome": "Maça", "dano": "For+d6", "peso": 2, "custo": 200, "notas": "-"},
+        {"nome": "Rapieira", "dano": "For+d4", "peso": 1, "custo": 300, "notas": "Aparar +1."},
+        {"nome": "Schiavona", "dano": "For+d8", "peso": 1.5, "custo": 300, "notas": "Espada com cesta. Item de Brancalonia."}
+    ],
+    "Armas a Distância": [
+        {"nome": "Arco Curto", "dano": "2d6", "peso": 1, "custo": 250, "notas": "Alcance 12/24/48."},
+        {"nome": "Besta", "dano": "2d6", "peso": 4, "custo": 500, "notas": "PA 2, Recarga 1. Alcance 15/30/60."},
+        {"nome": "Funda", "dano": "For+d4", "peso": 0.5, "custo": 10, "notas": "Alcance 4/8/16."},
+        {"nome": "Mosquete (Pólvora)", "dano": "2d8", "peso": 4, "custo": 1500, "notas": "Recarga 2. Alcance 10/20/40. Barulhento."},
+        {"nome": "Pistola (Pólvora)", "dano": "2d6+1", "peso": 1.5, "custo": 500, "notas": "Recarga 1. Alcance 5/10/20. Barulhenta."}
+    ],
+    "Armaduras e Escudos": [
+        {"nome": "Roupas Pesadas/Gibão", "bonus": "+1 Armadura", "peso": 2, "custo": 50, "notas": "Cobre Torso, Braços, Pernas."},
+        {"nome": "Couro Batido", "bonus": "+2 Armadura", "peso": 5, "custo": 200, "notas": "Cobre Torso, Braços, Pernas."},
+        {"nome": "Cota de Malha", "bonus": "+3 Armadura", "peso": 12, "custo": 300, "notas": "Cobre Torso, Braços, Pernas."},
+        {"nome": "Peitoral de Aço", "bonus": "+4 Armadura", "peso": 12, "custo": 400, "notas": "Cobre apenas Torso."},
+        {"nome": "Armadura de Placas", "bonus": "+4 Armadura", "peso": 20, "custo": 1000, "notas": "Cobre tudo. Caro e raro."},
+        {"nome": "Scudetto (Escudo Peq.)", "bonus": "+1 Aparar", "peso": 1, "custo": 25, "notas": "Item de Brancalonia."},
+        {"nome": "Escudo Médio", "bonus": "+2 Aparar", "peso": 3, "custo": 100, "notas": "Cobertura -2 contra tiros."}
+    ],
+    "Equipamento de Aventura": [
+        {"nome": "Mochila", "peso": 1, "custo": 50, "notas": "Essencial para carregar tralha."},
+        {"nome": "Corda (15m)", "peso": 5, "custo": 10, "notas": "Cânhamo."},
+        {"nome": "Odre/Cantil", "peso": 0.5, "custo": 5, "notas": "Para água ou vinho barato."},
+        {"nome": "Pederneira e Isqueiro", "peso": 0.5, "custo": 5, "notas": "Para acender fogueiras."},
+        {"nome": "Rações de Viagem (1 dia)", "peso": 0.5, "custo": 10, "notas": "Comida seca e dura."},
+        {"nome": "Saco de Dormir", "peso": 2, "custo": 25, "notas": "Para noites ao relento."},
+        {"nome": "Tocha (5)", "peso": 2.5, "custo": 5, "notas": "1 hora de luz, raio 4 quadros."},
+        {"nome": "Kit de Primeiros Socorros", "peso": 0.5, "custo": 50, "notas": "3 usos. Remove penalidade sem equipamento."},
+        {"nome": "Sela da Donzela em Perigo", "peso": 10, "custo": 400, "notas": "Permite fingir queda com +2 em Atuação. Item de Brancalonia."}
+    ],
+    "Equipamento Ruim (Shoddy)": [
+        {"nome": "Arma Ruim", "peso": 0, "custo": "10% do original", "notas": "Quebra se rolar 1 crítico no ataque."},
+        {"nome": "Armadura Ruim", "peso": 0, "custo": "10% do original", "notas": "Se atingido com Aumento, CA reduz em 1 até consertar."},
+        {"nome": "Ferramenta Ruim", "peso": 0, "custo": "10% do original", "notas": "Impõe -1 ou -2 em testes (a critério do GM)."}
+    ]
+}
