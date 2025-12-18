@@ -1,408 +1,275 @@
 {
     "Vantagens": [
         {
-            "nome": "Antiga Arte Culinária",
-            "tipo": "Brancalonia",
-            "rank": "Novato",
-            "requisitos": "Astúcia d6",
-            "efeito": "Cura ou concede PV temporários com comida (1 refeição/dia)."
+            "nome": "Alerta (Alertness)",
+            "tipo": "Básica",
+            "requisitos": "-",
+            "efeito": "+2 Perceber; nunca é Surpreendido."
         },
         {
-            "nome": "Boticário",
-            "tipo": "Brancalonia",
-            "rank": "Novato",
-            "requisitos": "Astúcia d8, Curar d6",
-            "efeito": "Cria misturas, tônicos e remédios com ervas."
+            "nome": "Atleta (Athlete)",
+            "tipo": "Básica",
+            "requisitos": "-",
+            "efeito": "+2 Atletismo; Escalar/Nadar conta como d8+."
         },
         {
-            "nome": "Língua do Matador",
-            "tipo": "Combate (Brancalonia)",
-            "rank": "Novato",
-            "requisitos": "Agilidade d8",
-            "efeito": "+1 no ataque e aparar com chicotes; pode agarrar à distância."
-        },
-        {
-            "nome": "Supercrescido",
-            "tipo": "Racial (Morgante)",
-            "rank": "Novato",
-            "requisitos": "Morgante",
-            "efeito": "Tamanho +1 (total +2), Resistência +1."
-        },
-        {
-            "nome": "Alerta",
-            "tipo": "Antecedente",
-            "rank": "Novato",
-            "requisitos": "Nenhum",
-            "efeito": "+2 em Percepção para ouvir, ver ou notar algo."
-        },
-        {
-            "nome": "Ambidestro",
-            "tipo": "Antecedente",
-            "rank": "Novato",
-            "requisitos": "Agilidade d8",
-            "efeito": "Ignora penalidade de -2 para mão inábil."
-        },
-        {
-            "nome": "Antecedente Arcano (Milagreiro/Mago)",
-            "tipo": "Poder",
-            "rank": "Novato",
-            "requisitos": "Nenhum",
-            "efeito": "Ganha a perícia conjurar, pontos de poder e poderes iniciais."
-        },
-        {
-            "nome": "Aristocrata (Decadente)",
-            "tipo": "Social",
-            "rank": "Novato",
-            "requisitos": "Nenhum",
-            "efeito": "+2 Carisma com a nobreza; Riqueza inicial maior."
-        },
-        {
-            "nome": "Atacar Primeiro",
-            "tipo": "Combate",
-            "rank": "Novato",
-            "requisitos": "Agilidade d8",
-            "efeito": "Uma vez por turno, ataca inimigo que se aproximar (ataque livre)."
-        },
-        {
-            "nome": "Berserk",
-            "tipo": "Combate",
-            "rank": "Novato",
-            "requisitos": "Nenhum",
-            "efeito": "Após sofrer dano, teste Astúcia ou entra em fúria (+2 Lutar/Dano, -2 Aparar)."
-        },
-        {
-            "nome": "Bloquear",
-            "tipo": "Combate",
-            "rank": "Experiente",
+            "nome": "Bloquear (Block)",
+            "tipo": "Básica",
             "requisitos": "Lutar d8",
-            "efeito": "+1 em Aparar."
+            "efeito": "Aparar +1; aliados adjacentes ganham +1."
         },
         {
-            "nome": "Brigão",
-            "tipo": "Combate",
-            "rank": "Novato",
-            "requisitos": "Força d8",
-            "efeito": "+1 Resistência; Dano desarmado é For+d4."
+            "nome": "Robusto (Brawny)",
+            "tipo": "Básica",
+            "requisitos": "Vigor d6",
+            "efeito": "Capacidade de Carga x8 Força; +1 Recuperação de Abalado/Ferimento."
         },
         {
-            "nome": "Comando",
-            "tipo": "Liderança",
-            "rank": "Novato",
-            "requisitos": "Astúcia d6",
-            "efeito": "+1 para aliados se recuperarem de Abalado (3 quadros)."
+            "nome": "Clinch",
+            "tipo": "Básica",
+            "requisitos": "Lutar d8",
+            "efeito": "Ataque Selvagem corpo-a-corpo: causa +2 dano e ignora 2 de Armadura."
         },
         {
-            "nome": "Combate com Duas Armas",
-            "tipo": "Combate",
-            "rank": "Novato",
+            "nome": "Contra-ataque (Counterattack)",
+            "tipo": "Básica",
+            "requisitos": "Lutar d8",
+            "efeito": "Recebe ataque grátis se o inimigo falhar num ataque de luta."
+        },
+        {
+            "nome": "Esquiva (Dodge)",
+            "tipo": "Básica",
             "requisitos": "Agilidade d8",
-            "efeito": "Reduz penalidade de multi-ação ao atacar com duas armas."
+            "efeito": "-2 para ser atingido à distância (exceto armas de área)."
+        },
+        {
+            "nome": "Elan",
+            "tipo": "Básica",
+            "requisitos": "-",
+            "efeito": "+2 vs. Abalado/Ferimento; pode rolar novamente testes de Medo."
+        },
+        {
+            "nome": "Extração (Extraction)",
+            "tipo": "Básica",
+            "requisitos": "Agilidade d6, Atletismo d6",
+            "efeito": "Ao mover-se, um inimigo Engajado perde o ataque livre."
+        },
+        {
+            "nome": "Atacar Primeiro (First Strike)",
+            "tipo": "Básica",
+            "requisitos": "Agilidade d8",
+            "efeito": "Ataque grátis contra inimigo que entra no Alcance."
+        },
+        {
+            "nome": "Florentino (Florentine)",
+            "tipo": "Básica",
+            "requisitos": "Lutar d8",
+            "efeito": "Ao usar duas armas: +1 ataque e +1 Aparar."
+        },
+        {
+            "nome": "Frenesi (Frenzy)",
+            "tipo": "Básica",
+            "requisitos": "Lutar d8",
+            "efeito": "Permite ataque múltiplo (d6-) sem penalidade de Ação Múltipla."
+        },
+        {
+            "nome": "Atirador (Marksman)",
+            "tipo": "Básica",
+            "requisitos": "Atirar d8",
+            "efeito": "Permite ataque duplo com -2 (contra o mesmo alvo)."
+        },
+        {
+            "nome": "Antecedente Arcano (Milagres)",
+            "tipo": "Arcana",
+            "requisitos": "Espírito d8",
+            "efeito": "15 PP; Poderes santos (Cura, Proteção); Foco 'Santos'."
+        },
+        {
+            "nome": "Antecedente Arcano (Extravaganza)",
+            "tipo": "Arcana",
+            "requisitos": "Astúcia d8",
+            "efeito": "15 PP; Poderes feéricos (Deflexão, Sorte); Falha Crítica: Dado Selvagem explode."
+        },
+        {
+            "nome": "Antecedente Arcano (Agouro)",
+            "tipo": "Arcana",
+            "requisitos": "Espírito d6",
+            "efeito": "10 PP; Maldições (Reduzir Características, Medo); Foco 'Madame Agouro'."
+        },
+        {
+            "nome": "Curandeiro (Healer)",
+            "tipo": "Arcana",
+            "requisitos": "Persuasão d6",
+            "efeito": "+2 em rolagens de Curar; Perceber doenças ou venenos."
+        },
+        {
+            "nome": "Guerreiro Santo (Holy Warrior)",
+            "tipo": "Arcana",
+            "requisitos": "Fé d8, Lutar d6",
+            "efeito": "Castigar (Smite): +d6 dano mágico (1/turno)."
+        },
+        {
+            "nome": "Pontos de Poder",
+            "tipo": "Arcana",
+            "requisitos": "Antecedente Arcano",
+            "efeito": "+5 Pontos de Poder."
+        },
+        {
+            "nome": "Recarga Rápida",
+            "tipo": "Arcana",
+            "requisitos": "Antecedente Arcano",
+            "efeito": "Recupera Pontos de Poder 1/hora (em vez de 1/dia)."
+        },
+        {
+            "nome": "Carismático",
+            "tipo": "Social",
+            "requisitos": "Persuasão d8",
+            "efeito": "+2 em rolagens Sociais; pode repetir falhas."
+        },
+        {
+            "nome": "Elo Comum (Common Bond)",
+            "tipo": "Social",
+            "requisitos": "-",
+            "efeito": "Pode dar um Bene para um aliado em risco."
         },
         {
             "nome": "Conexões",
             "tipo": "Social",
-            "rank": "Novato",
-            "requisitos": "Nenhum",
-            "efeito": "Pode pedir favores a uma facção (Igreja, Bandidos, Nobres, etc)."
+            "requisitos": "-",
+            "efeito": "Contato ajuda 1x/sessão."
         },
         {
-            "nome": "Corajoso",
-            "tipo": "Antecedente",
-            "rank": "Novato",
-            "requisitos": "Espírito d6",
-            "efeito": "+2 em testes de Medo."
-        },
-        {
-            "nome": "Curandeiro",
-            "tipo": "Estranha",
-            "rank": "Novato",
-            "requisitos": "Espírito d8",
-            "efeito": "+2 em testes de Curar (mágicos ou mundanos)."
-        },
-        {
-            "nome": "Elo Animal",
-            "tipo": "Estranha",
-            "rank": "Novato",
-            "requisitos": "Nenhum",
-            "efeito": "Pode gastar benes em seus animais; animais não o atacam imediatamente."
-        },
-        {
-            "nome": "Elo Comum",
+            "nome": "Legendário",
             "tipo": "Social",
-            "rank": "Carta Selvagem",
-            "requisitos": "Espírito d8",
-            "efeito": "Pode dar seus Benes para outros jogadores."
+            "requisitos": "Reputação +3",
+            "efeito": "+2 Intimidar/Persuadir dentro do Reino."
         },
         {
-            "nome": "Esquiva",
-            "tipo": "Combate",
-            "rank": "Experiente",
-            "requisitos": "Agilidade d8",
-            "efeito": "-2 para ser atingido por ataques à distância."
-        },
-        {
-            "nome": "Fervor",
-            "tipo": "Combate",
-            "rank": "Novato",
-            "requisitos": "Espírito d8",
-            "efeito": "+2 nas rolagens de Traço quando gasta um Bene."
-        },
-        {
-            "nome": "Florentino",
-            "tipo": "Combate",
-            "rank": "Novato",
-            "requisitos": "Agilidade d8, Lutar d8",
-            "efeito": "+1 em Lutar contra inimigos com um escudo ou duas armas."
-        },
-        {
-            "nome": "Frenesi",
-            "tipo": "Combate",
-            "rank": "Experiente",
-            "requisitos": "Lutar d10",
-            "efeito": "1 ataque extra corpo a corpo com -2 (pode ser aprimorado)."
-        },
-        {
-            "nome": "Ladrão",
-            "tipo": "Profissional",
-            "rank": "Novato",
-            "requisitos": "Agilidade d8, Furtividade d6, Ladinagem d6",
-            "efeito": "+2 em Furtividade, Ladinagem e Atletismo (escalar)."
-        },
-        {
-            "nome": "Liderança Natural",
-            "tipo": "Liderança",
-            "rank": "Novato",
-            "requisitos": "Espírito d8, Comando",
-            "efeito": "Pode compartilhar Benes com aliados no alcance de comando."
-        },
-        {
-            "nome": "Linguista",
-            "tipo": "Antecedente",
-            "rank": "Novato",
-            "requisitos": "Astúcia d6",
-            "efeito": "Conhece metade da Astúcia em idiomas extras."
-        },
-        {
-            "nome": "Lutador Improvisado",
-            "tipo": "Combate",
-            "rank": "Novato",
-            "requisitos": "Astúcia d6",
-            "efeito": "Ignora penalidade ao usar cadeiras, garrafas e mesas como armas."
-        },
-        {
-            "nome": "Manha (Streetwise)",
+            "nome": "Ameaçador (Menacing)",
             "tipo": "Social",
-            "rank": "Novato",
+            "requisitos": "Intimidar d8",
+            "efeito": "+2 Intimidar; +1 em testes de Medo dos inimigos."
+        },
+        {
+            "nome": "Nobreza (Nobility)",
+            "tipo": "Social",
+            "requisitos": "-",
+            "efeito": "+2 Social com nobres; garante hospedagem."
+        },
+        {
+            "nome": "Patrono",
+            "tipo": "Social",
+            "requisitos": "-",
+            "efeito": "Patrono fornece bicos e Favores."
+        },
+        {
+            "nome": "Alma Camponesa",
+            "tipo": "Brancalonia",
+            "requisitos": "Vigor d6",
+            "efeito": "+2 Sobrevivência/Agricultura; armas camponesas (foice, etc.) dão +1 dano."
+        },
+        {
+            "nome": "Antiga Arte Culinária",
+            "tipo": "Brancalonia",
             "requisitos": "Astúcia d6",
-            "efeito": "+2 em Persuasão/Intimidação para obter informações nas ruas."
+            "efeito": "+2 Provocar/Curar usando comida; ignora qualidade 'Ruim' de alimentos."
         },
         {
-            "nome": "Mateiro",
-            "tipo": "Profissional",
-            "rank": "Novato",
-            "requisitos": "Espírito d6, Sobrevivência d8",
-            "efeito": "+2 em Sobrevivência e Rastrear."
+            "nome": "Bem-Dotado",
+            "tipo": "Brancalonia",
+            "requisitos": "Antecedente Arcano (Dom)",
+            "efeito": "+5 PP para o Dom; +1 magia conhecida para o Dom."
         },
         {
-            "nome": "Musculoso",
-            "tipo": "Antecedente",
-            "rank": "Novato",
-            "requisitos": "Força d6, Vigor d6",
-            "efeito": "Resistência +1; Capacidade de Carga aumenta (8x Força)."
+            "nome": "Enrolão",
+            "tipo": "Brancalonia",
+            "requisitos": "Persuasão d6",
+            "efeito": "Ganha 3 'Dados de Lábia' (d4) para usar em Provocar/Persuadir."
         },
         {
-            "nome": "Nervos de Aço",
-            "tipo": "Combate",
-            "rank": "Novato",
+            "nome": "Escudana",
+            "tipo": "Brancalonia",
+            "requisitos": "Lutar d6, Escudo",
+            "efeito": "Escudo concede +1 Aparar adicional; ignora qualidade 'Ruim' do escudo."
+        },
+        {
+            "nome": "Extravaganza Empoderada",
+            "tipo": "Brancalonia",
+            "requisitos": "Extravaganza",
+            "efeito": "Poder ganha +1 Aumento automático (1x/Descanso Curto)."
+        },
+        {
+            "nome": "Filha de Talha",
+            "tipo": "Brancalonia",
+            "requisitos": "-",
+            "efeito": "+2 Manha (Streetwise); -2 na Notoriedade."
+        },
+        {
+            "nome": "Grappanel",
+            "tipo": "Brancalonia",
+            "requisitos": "Atletismo d8",
+            "efeito": "Ignora terreno difícil em montanha; +2 vs. queda."
+        },
+        {
+            "nome": "Lanadura",
+            "tipo": "Brancalonia",
+            "requisitos": "Arremesso d6",
+            "efeito": "Alcance de arremesso +50%; +1 dano no arremesso."
+        },
+        {
+            "nome": "Mau Agouro",
+            "tipo": "Brancalonia",
+            "requisitos": "Intimidar d8",
+            "efeito": "Inimigo próximo sofre -1 nos ataques (1x/turno)."
+        },
+        {
+            "nome": "Madeira Tratada",
+            "tipo": "Brancalonia",
+            "requisitos": "Marionete",
+            "efeito": "+2 resistência vs. Fogo; Visão no Escuro 60'."
+        },
+        {
+            "nome": "Nostalgia Malebolge",
+            "tipo": "Brancalonia",
+            "requisitos": "Malebranche",
+            "efeito": "Melhora traços raciais (Asas/Fogo/etc.)."
+        },
+        {
+            "nome": "Sangue de Víbora (Vilpera)",
+            "tipo": "Brancalonia",
             "requisitos": "Vigor d8",
-            "efeito": "Ignora 1 ponto de penalidade de Ferimentos."
+            "efeito": "Imune a venenos e doenças."
         },
         {
-            "nome": "Pés Ligeiros",
-            "tipo": "Antecedente",
-            "rank": "Novato",
-            "requisitos": "Agilidade d6",
-            "efeito": "Movimentação +2; Dado de corrida aumenta em 1 passo."
-        },
-        {
-            "nome": "Provocar",
-            "tipo": "Social",
-            "rank": "Novato",
-            "requisitos": "Astúcia d6",
-            "efeito": "+2 para testes de Provocar (Taunt)."
-        },
-        {
-            "nome": "Rápido",
-            "tipo": "Antecedente",
-            "rank": "Novato",
-            "requisitos": "Agilidade d6",
-            "efeito": "Pode descartar cartas de iniciativa 5 ou menores e comprar novas."
-        },
-        {
-            "nome": "Resistência Arcana",
-            "tipo": "Antecedente",
-            "rank": "Novato",
-            "requisitos": "Espírito d8",
-            "efeito": "+2 para resistir a magias; Dano mágico reduzido em 2."
-        },
-        {
-            "nome": "Retrucar",
-            "tipo": "Social",
-            "rank": "Novato",
-            "requisitos": "Provocar d6",
-            "efeito": "Se um inimigo falhar ao te provocar, ele fica Abalado."
-        },
-        {
-            "nome": "Sangue Frio",
-            "tipo": "Combate",
-            "rank": "Experiente",
+            "nome": "Fios de Geppetto",
+            "tipo": "Brancalonia",
             "requisitos": "Astúcia d8",
-            "efeito": "Compra 2 cartas de iniciativa e escolhe a melhor."
-        },
-        {
-            "nome": "Sem Piedade",
-            "tipo": "Combate",
-            "rank": "Experiente",
-            "requisitos": "Nenhum",
-            "efeito": "+2 dano quando gasta Bene para rerolar dano."
-        },
-        {
-            "nome": "Sorte",
-            "tipo": "Antecedente",
-            "rank": "Novato",
-            "requisitos": "Nenhum",
-            "efeito": "+1 Bene no início da sessão."
-        },
-        {
-            "nome": "Sucateiro",
-            "tipo": "Estranha",
-            "rank": "Novato",
-            "requisitos": "Sorte",
-            "efeito": "Uma vez por sessão, encontra um item útil no lixo/equipamento."
-        },
-        {
-            "nome": "Varrer",
-            "tipo": "Combate",
-            "rank": "Novato",
-            "requisitos": "Força d8, Lutar d8",
-            "efeito": "Ataca todos os inimigos adjacentes com -2."
+            "efeito": "Controle de marionete (como a Vantagem Bonequeiro Novato)."
         }
     ],
     "Desvantagens": [
-        {
-            "nome": "Analfabeto",
-            "tipo": "Menor",
-            "efeito": "Não sabe ler ou escrever."
-        },
-        {
-            "nome": "Arrogante",
-            "tipo": "Maior",
-            "efeito": "Sempre desafia o líder inimigo; busca domínio."
-        },
-        {
-            "nome": "Boca Grande",
-            "tipo": "Menor",
-            "efeito": "Não guarda segredos; fala demais."
-        },
-        {
-            "nome": "Código de Honra",
-            "tipo": "Maior",
-            "efeito": "Mantém sua palavra; protege os fracos (ou o Bando)."
-        },
-        {
-            "nome": "Covarde",
-            "tipo": "Maior",
-            "efeito": "-2 em testes de Medo; foge de perigos mortais."
-        },
-        {
-            "nome": "Curioso",
-            "tipo": "Maior",
-            "efeito": "Tem que investigar mistérios, mesmo se perigosos."
-        },
-        {
-            "nome": "Desastrado",
-            "tipo": "Menor",
-            "efeito": "-2 em Atletismo e Furtividade; rola 1 no dado de perícia faz barulho/quebra algo."
-        },
-        {
-            "nome": "Desejo de Morte",
-            "tipo": "Menor",
-            "efeito": "Aceita missões suicidas ou se arrisca demais."
-        },
-        {
-            "nome": "Feio",
-            "tipo": "Menor",
-            "efeito": "-2 em Persuasão."
-        },
-        {
-            "nome": "Ganancioso",
-            "tipo": "Menor/Maior",
-            "efeito": "Nunca divide tesouros justamente (Menor) ou mata por ouro (Maior)."
-        },
-        {
-            "nome": "Hábito (Bebida/Fumo)",
-            "tipo": "Menor/Maior",
-            "efeito": "Vício que causa Fadiga se não satisfeito."
-        },
-        {
-            "nome": "Heroico",
-            "tipo": "Maior",
-            "efeito": "Sempre ajuda quem precisa; não recusa pedidos de socorro."
-        },
-        {
-            "nome": "Inimigo",
-            "tipo": "Menor/Maior",
-            "efeito": "Alguém quer te matar (Rival ou Organização)."
-        },
-        {
-            "nome": "Leal",
-            "tipo": "Menor",
-            "efeito": "Nunca trai ou abandona seus amigos."
-        },
-        {
-            "nome": "Má Fama",
-            "tipo": "Menor",
-            "efeito": "-2 Carisma devido a crimes passados ou reputação ruim."
-        },
-        {
-            "nome": "Maldito",
-            "tipo": "Maior",
-            "efeito": "Começa com 1 Bene a menos por sessão."
-        },
-        {
-            "nome": "Olhos Ruins",
-            "tipo": "Menor/Maior",
-            "efeito": "-1 (Menor) ou -2 (Maior) em ações que usam a visão."
-        },
-        {
-            "nome": "Pecador (Gula/Luxúria)",
-            "tipo": "Menor/Maior",
-            "efeito": "Não resiste a tentações específicas."
-        },
-        {
-            "nome": "Pequeno",
-            "tipo": "Menor",
-            "efeito": "Tamanho -1, Resistência -1."
-        },
-        {
-            "nome": "Pobreza",
-            "tipo": "Menor",
-            "efeito": "Começa com metade do dinheiro inicial."
-        },
-        {
-            "nome": "Procurado (Talha)",
-            "tipo": "Menor/Maior",
-            "efeito": "Tem uma recompensa pela sua cabeça. Frequentemente caçado."
-        },
-        {
-            "nome": "Sanguinário",
-            "tipo": "Maior",
-            "efeito": "-4 Carisma; sempre mata prisioneiros ou inimigos caídos."
-        },
-        {
-            "nome": "Vingativo",
-            "tipo": "Menor/Maior",
-            "efeito": "Sempre busca retribuição por insultos ou danos."
-        }
+        {"nome": "Analfabeto", "tipo": "Menor"},
+        {"nome": "Arrogante", "tipo": "Maior"},
+        {"nome": "Boca Grande", "tipo": "Menor"},
+        {"nome": "Código de Honra", "tipo": "Maior"},
+        {"nome": "Covarde", "tipo": "Maior"},
+        {"nome": "Curioso", "tipo": "Maior"},
+        {"nome": "Desastrado", "tipo": "Menor"},
+        {"nome": "Desejo de Morte", "tipo": "Menor"},
+        {"nome": "Feio", "tipo": "Menor"},
+        {"nome": "Ganancioso", "tipo": "Menor/Maior"},
+        {"nome": "Hábito (Vício)", "tipo": "Menor/Maior"},
+        {"nome": "Heroico", "tipo": "Maior"},
+        {"nome": "Inimigo", "tipo": "Menor/Maior"},
+        {"nome": "Leal", "tipo": "Menor"},
+        {"nome": "Má Fama", "tipo": "Menor"},
+        {"nome": "Maldito", "tipo": "Maior"},
+        {"nome": "Olhos Ruins", "tipo": "Menor/Maior"},
+        {"nome": "Pecador (Gula/Luxúria)", "tipo": "Menor/Maior"},
+        {"nome": "Pequeno", "tipo": "Menor"},
+        {"nome": "Pobreza", "tipo": "Menor"},
+        {"nome": "Procurado (Talha)", "tipo": "Menor/Maior"},
+        {"nome": "Sanguinário", "tipo": "Maior"},
+        {"nome": "Vingativo", "tipo": "Menor/Maior"}
     ]
 }
