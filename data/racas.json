@@ -1,55 +1,113 @@
 {
     "Humano": {
-        "descricao": "A população mais comum do Reino. Versáteis e adaptáveis.",
+        "descricao": "A gente comum do Reino. Versáteis e com nomes folclóricos.",
+        "custo": 0,
         "bonus": {
-            "Vantagem Extra": 1
+            "Adaptável": "Começa com 1 Vantagem Extra (deve atender requisitos).",
+            "Versátil": "Começa com +2 pontos de perícia adicionais."
         },
-        "modificadores": {}
+        "modificadores": {},
+        "notas": "Nomes folclóricos."
+    },
+    "Dom (Gifted)": {
+        "descricao": "Pessoas com um toque sutil de magia no sangue.",
+        "custo": 2,
+        "bonus": {
+            "Bem-Dotado": "Começa com a Vantagem Arcano (Dotado/Truques).",
+            "Afinidade Mágica": "Magia sutil."
+        },
+        "modificadores": {
+            "Astúcia": 1
+        },
+        "notas": "Recebe +1 passo em Astúcia (Intelecto)."
     },
     "Morgante": {
-        "descricao": "Meio-gigantes corpulentos, famosos pela comilança e força.",
+        "descricao": "Meio-gigantes corpulentos.",
+        "custo": 3,
         "bonus": {
-            "Tamanho": 1,
-            "Resistência": 1
+            "Robusto (Brawny)": "Começa com a Vantagem Robusto (Carga 8x, Tamanho +1).",
+            "Tamanho Grande": "+1 no dano corpo a corpo devido ao tamanho.",
+            "Resistência": "+3 PVs (ou +1 Resistência/Toughness na conversão)."
         },
         "modificadores": {
-            "Força": 1,
+            "Força": 2,
             "Vigor": 1
         },
-        "notas": "Custo dobrado para armaduras e roupas devido ao tamanho."
-    },
-    "Marionette": {
-        "descricao": "Criaturas feitas de madeira de Fabulenha, animadas por magia.",
-        "bonus": {
-            "Construto": true,
-            "Armadura Natural": 1
-        },
-        "modificadores": {
-            "Vigor": 1
-        },
-        "fraquezas": "Vulnerabilidade a Fogo. Não podem ser curados magicamente (precisam de Consertar).",
-        "notas": "Imune a veneno e doenças."
+        "notas": "Começa com Força d8 e Vigor d6."
     },
     "Silvestre": {
-        "descricao": "Humanos rústicos e ferais que vivem em harmonia com a natureza.",
+        "descricao": "Humanos rústicos afinados com as florestas.",
+        "custo": 1,
         "bonus": {
-            "Sentidos Apurados": "Começa com d6 em Percepção"
+            "Mateiro (Woodsman)": "Começa com a Vantagem Mateiro (+2 Sobrevivência/Rastrear).",
+            "Sobrevivência": "+1 passo em perícias de Natureza/Sobrevivência."
+        },
+        "modificadores": {},
+        "notas": "Afinado com florestas."
+    },
+    "Marionete": {
+        "descricao": "Bonecos de madeira viva.",
+        "custo": 2,
+        "bonus": {
+            "Feito de Madeira": "+2 para resistir a venenos.",
+            "Astúcia Extravagante": "+2 para resistir a magias."
+        },
+        "modificadores": {
+            "Agilidade": 1
+        },
+        "fraquezas": "Desajeitado (All Thumbs): -2 em usar mecanismos complexos."
+    },
+    "Malebranche": {
+        "descricao": "Diabos menores com asas e fogo.",
+        "custo": 4,
+        "bonus": {
+            "Garras": "Causam Força + d4 de dano.",
+            "Asas": "Voo com Movimentação 12.",
+            "Fogo do Inferno": "Acesso a poderes de fogo ou resistência."
+        },
+        "modificadores": {
+            "Espírito": 1
+        },
+        "fraquezas": "Forasteiro (Outsider): -2 em Carisma/Sociais. Nostalgia Infernal."
+    },
+    "Inexistente (Nonexistent)": {
+        "descricao": "Armaduras vazias animadas.",
+        "custo": 3,
+        "bonus": {
+            "Sem Medo (Fearless)": "Imune ao medo.",
+            "Sem Necessidades": "Não precisa comer, beber ou respirar.",
+            "Desaparecer (Vanish)": "Reação ignora ataques (conforme regra específica)."
+        },
+        "modificadores": {
+            "Vigor": 1,
+            "Espírito": 1
+        },
+        "fraquezas": "Suscetibilidade Mágica. Sempre Vestido (não pode tirar a armadura)."
+    },
+    "Gatolupo (Wolfcat)": {
+        "descricao": "Felinos selvagens, ladrões e alertas.",
+        "custo": 2,
+        "bonus": {
+            "Alerta (Alertness)": "+2 em Percepção.",
+            "Ladrão (Thief)": "+2 em Furtividade e Ladinagem.",
+            "Pounce": "Ataque de salto (+4 dano/ataque, -2 aparar)."
+        },
+        "modificadores": {
+            "Agilidade": 1
+        },
+        "fraquezas": "Pequeno (Tamanho -1). Fobia de Água (-2 Natação)."
+    },
+    "Pantegana": {
+        "descricao": "Povo-rato dos esgotos.",
+        "custo": 2,
+        "bonus": {
+            "Furtivo": "Começa com d6 em Furtividade (ou bônus racial).",
+            "Flechas de Doença": "Habilidade racial de veneno/doença."
         },
         "modificadores": {
             "Agilidade": 1,
-            "Espírito": 1
+            "Vigor": 1
         },
-        "notas": "Recebe Vantagem 'Mateiro' gratuitamente."
-    },
-    "Malebranque": {
-        "descricao": "Diabos que renunciaram ao inferno para viver no Reino.",
-        "bonus": {
-            "Visão no Escuro": true,
-            "Resistência ao Fogo": 4
-        },
-        "modificadores": {
-            "Força": 1
-        },
-        "fraquezas": "Má Reputação (-2 carisma com clérigos e paladinos)."
+        "fraquezas": "Pequeno (Tamanho -1). Feio (-1 Persuasão). Covarde (-2 contra Medo)."
     }
 }
